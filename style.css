@@ -116,13 +116,15 @@ section#coRobim > div > H5 {
     text-shadow: 2.5px 1.5px indianred;
 }
 
-section#coRobim > div > div > div > H6 {
+section#coRobim > div > div > div > H6 > a {
     margin: 0;
     border: 0;
     padding: 1em;
     font-size: 20px;
     font-family: cursive;
     text-shadow: 1.5px 1px indianred;
+    color: #36648B;
+    text-decoration: none;
 }
 
 section#coRobim > div > div > div > img {
@@ -151,6 +153,13 @@ section#coRobim > div > div > div {
     color: #36648B;
     background-color: #FFF;
     box-shadow: 0px 4px 3px indianred;
+}
+
+section#coRobim > div > div > div:hover {
+    background-color: #FFF0F5;
+    color: indianred;
+    text-shadow: .5px .5px #36648B;
+    
 }
 
 /* ---------------------------------------------------------------------- */
